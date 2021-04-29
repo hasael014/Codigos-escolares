@@ -1,0 +1,105 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.604);
+}
+
+.indicasion {
+    text-align: center;
+    margin-top: 40px;
+    background-color: rgb(208, 90, 90);
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 26px;
+    text-decoration: double;
+}
+
+.contenedor {
+    width: 20%;
+    height: 210px;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.678);
+    border-radius: 7px;
+    margin: auto;
+    text-align: center;
+}
+
+.Suma {
+    margin-top: 20px;
+    display: list-item;
+    align-items: center;
+    margin-left: 55px;
+    width: 47%;
+    border-radius: 10px;
+    max-width: 250px;
+    border-color: rgb(63, 122, 250);
+    background-color: rgba(0, 0, 0, 0.651);
+    color: aliceblue;
+}
+
+.Resta {
+    margin-top: 10px;
+    display: list-item;
+    align-items: center;
+    margin-left: 55px;
+    width: 47%;
+    border-radius: 10px;
+    max-width: 250px;
+    border-color: rgb(63, 122, 250);
+    background-color: rgba(0, 0, 0, 0.651);
+    color: aliceblue;
+}
+
+.Multi {
+    margin-top: 10px;
+    display: list-item;
+    align-items: center;
+    margin-left: 55px;
+    width: 47%;
+    border-radius: 10px;
+    max-width: 250px;
+    border-color: rgb(63, 122, 250);
+    background-color: rgba(0, 0, 0, 0.651);
+    color: aliceblue;
+}
+
+.Division {
+    margin-top: 10px;
+    display: list-item;
+    align-items: center;
+    margin-left: 55px;
+    width: 47%;
+    border-radius: 10px;
+    max-width: 250px;
+    border-color: rgb(63, 122, 250);
+    background-color: rgba(0, 0, 0, 0.651);
+    color: aliceblue;
+}
+
+.Suma:hover {
+    transform: scale(1.08);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.Resta:hover {
+    transform: scale(1.08);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.Multi:hover {
+    transform: scale(1.08);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.Division:hover {
+    transform: scale(1.08);
+    border-color: rgb(255, 0, 0);
+    cursor: pointer;
+}
