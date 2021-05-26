@@ -1,0 +1,33 @@
+.contenedor {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor2 {
+    background: rgb(44, 41, 41);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.in {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.des {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}

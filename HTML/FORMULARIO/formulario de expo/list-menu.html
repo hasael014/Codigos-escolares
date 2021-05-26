@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>formulario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="form.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--barra de navegacion-->
+
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Formulario</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="camp&area.html">Tema_01</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="boton.html">Tema_02</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cas-berif.html">Tema_03</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="btn-opc.html">Tema_04</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="list-menu.html">Tema_05</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="etiqueta.html">Tema_06</a>
+        </li>
+    </ul>
+
+
+    <!--programa-->
+
+    <center>
+        <h1 class="h1-tit">Seleccionar (Lista/Menú)</h1>
+    </center>
+
+    <div class="contenedor">
+        <div class="contenedor2">
+
+            <p class="in des">Los menús se crean mediante la etiqueta
+                < select>. Cada</p>
+            <p class="in des">opción del menú se define mediante la etiqueta
+                < option>.</p>
+            <p></p>
+
+            <select name="menu">
+  <option>Uno</option>
+  <option>Dos</option>
+  <option>Tres</option>
+</select>
+
+            <p></p>
+            <p class="in des">El valor que se envía es el texto que aparece en el menú,</p>
+            <p class="in des">salvo si el elemento
+                < option> contiene el atributo value.</p>
+            <p>_</p>
+            <p class="in des">Se pueden agrupar opciones utilizando la etiqueta
+                < optgroup>.</p>
+            <p></p>
+            <!--Ejemplo-->
+            <select name="menu">
+  <option selected>...</option>
+  <optgroup label="Grupo1">
+    <option value="1">Opción uno</option>
+    <option value="2">Opción dos</option>
+    <option value="3">Opción tres</option>
+  </optgroup>
+  <optgroup label="Grupo2">
+    <option value="4">Opción cuatro</option>
+    <option value="5">Opción cinco</option>
+    <option value="6">Opción seis</option>
+  </optgroup>
+</select>
+            <p></p>
+
+        </div>
+    </div>
+</body>
