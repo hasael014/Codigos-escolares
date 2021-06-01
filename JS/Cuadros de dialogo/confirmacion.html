@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Confirmacion</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="fondo">
+        <div class="container">
+            <!--Actividad 01-->
+            <p class="tit">Actividad 01 - Cuadro de diálogo Alerta.</p>
+            <script type="text/javascript">
+                function Warn() {
+                    alert("¡Este es un mensaje de advertencia!");
+                    document.write("¡Este es un mensaje de advertencia!");
+                }
+            </script>
+            <p>Haga clic en el siguiente botón para ver el resultado: </p>
+            <form>
+                <input type="button" value="Haz click en mi" onclick="Warn();">
+            </form>
+        </div>
+        <div class="container2">
+            <!--Actividad 02-->
+            <p class="tit">Actividad 02 - Cuadro de diálogo de confirmación.</p>
+            <script type="text/javascript">
+                function getConfirmation() {
+                    var retVal = confirm("Deseas continuar...?")
+                    if (retVal == true) {
+                        document.write("El usuario desea continuar!")
+                        return true
+                    } else {
+                        document.write("El usuario no desea continuar!")
+                        return false
+                    }
+                }
+            </script>
+            <p>
+                clic para ver el resultado:
+            </p>
+            <form>
+                <input type="button" value="Click" onclick="getConfirmation()">
+            </form>
+        </div>
+        <div class="container3">
+            <!---Actividad 03-->
+            <p class="tit">Actividad 03 - Cuadro de diálogo de Solicitud.</p>
+            <script type="text/javascript">
+                function solicitud() {
+                    var nombre = prompt("Introduce tu nombre: ", "Ejem. Juan")
+                    document.write("El nombre que introduciste es: ", nombre)
+                }
+            </script>
+            <p>
+                click para ver el resultado:
+            </p>
+            <form>
+                <input type="button" value="Click aquí" onclick="solicitud()">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
