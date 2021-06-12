@@ -1,0 +1,110 @@
+#navflo_00 a {
+    position: fixed;
+    left: -104px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.699);
+    border-radius: 0 5px 5px 0;
+}
+
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: #133972f1;
+}
+
+#navflo_00 a:hover {
+    left: 0;
+}
+
+#h_0 {
+    top: 400px;
+    background-color: #4caf4f;
+}
+
+#h_1 {
+    top: 440px;
+    background-color: #2195f3;
+}
+
+#h_2 {
+    top: 480px;
+    background-color: #f44336;
+}
+
+#h_3 {
+    top: 525px;
+    background-color: rgb(110, 85, 252);
+}
+
+.text_00 {
+    top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: -5px 15px 5px rgb(4, 4, 4);
+    text-align: center;
+    font-size: 65px;
+    background-color: rgba(32, 77, 174, 0);
+    width: auto;
+    height: 100px;
+    box-shadow: 1px 1px 200px rgba(46, 45, 45, 0.493) inset;
+    border-radius: 8px;
+    color: white;
+    margin-top: 0px;
+}
+
+#text_01 {
+    color: #9ab1c9c4;
+    margin-left: 40px;
+    margin-right: 15px;
+    font-family: sans-serif;
+    text-align: justify;
+    text-shadow: 2px 2px 5px #111;
+    box-shadow: 2px 2px 10px rgb(4, 4, 4);
+    padding: 30px;
+}
+
+#hr-titulo-page_02 {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#idicasiones {
+    margin-left: 20px;
+}
+
+#arm_p1 {
+    width: 330px;
+    height: 210px;
+    float: right;
+    margin-left: 10px;
+    box-shadow: -5px 5px 10px #111;
+}
+
+@media only screen and (min-width: 20px) and (max-width: 1000px) {
+    #text_01 {
+        margin-left: 25px;
+        margin-right: 10px;
+    }
+    #arm_p1 {
+        width: 250px;
+        height: 200px;
+    }
+    #navflo_00 a:hover {
+        left: 0;
+    }
+    #h_0 {
+        top: 560px;
+        background-color: #4caf4f;
+    }
+    #h_1 {
+        top: 600px;
+        background-color: #2195f3;
+    }
+    #h_2 {
+        top: 645px;
+        background-color: #f44336;
+    }
+}

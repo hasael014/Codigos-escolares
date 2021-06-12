@@ -1,0 +1,14 @@
+create database Registro;
+use Registro;
+create table registrodeform(
+     Id INT NOT NULL AUTO_INCREMENT,
+     Nombre VARCHAR(25) NOT NULL,
+     Apellidos VARCHAR(100) NOT NULL,
+     Correo VARCHAR(20) NOT NULL,
+     Usuario VARCHAR(25) NOT NULL,
+     Clave VARCHAR(25) NOT NULL,
+     Telefono INT NOT NULL,
+     Fecha_Registro DATETIME NOT NULL,
+     Activo TINYINT NOT NULL,
+     PRIMARY KEY(id)
+);

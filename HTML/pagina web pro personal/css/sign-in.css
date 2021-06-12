@@ -1,0 +1,71 @@
+:root {
+    --font-family-text: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --color-texto-form: rgb(160, 160, 160);
+    --color-texto-sub-1: #fff;
+    --left-margen: 45px;
+    --margin-text-sub: 62px;
+    --top-sub: 80px;
+    --wid: 90%;
+    --hei: 37px;
+    --radio: 8px;
+    --transparente: rgba(0, 0, 0, 0.241);
+}
+
+.content {
+    justify-content: center;
+    display: flex;
+    margin: 0px auto;
+    margin-bottom: var(--top-sub);
+}
+
+.formu {
+    background: rgba(0, 0, 0, 0.241);
+    box-shadow: 0px 0px 8px rgb(0, 0, 0);
+    color: var(--color-texto-form);
+}
+
+.text-sub-1 {
+    margin: 0px;
+    margin-top: var(--top-sub);
+    margin-bottom: 10px;
+    color: var(--color-texto-sub-1);
+    text-align: center;
+    font-size: 30px;
+    font-family: var(--font-family-text);
+    margin-left: var(--margin-text-sub);
+    margin-right: var(--margin-text-sub);
+}
+
+strong {
+    font-family: var(--font-family-text);
+}
+
+input {
+    font-family: var(--font-family-text);
+    width: var(--wid);
+    height: var(--hei);
+    border-radius: var(--radio);
+    background: var(--transparente);
+    color: var(--color-texto-sub-1);
+    border-color: var(--transparente);
+    margin-top: -10px;
+}
+
+.inputs {
+    margin-left: var(--left-margen);
+}
+
+label {
+    font-family: var(--font-family-text);
+}
+
+label input {
+    width: 10px;
+    height: 10px;
+    font-size: 10px;
+    font-family: var(--font-family-text);
+}
+
+.btn {
+    margin-top: 40px;
+}
