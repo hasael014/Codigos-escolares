@@ -20,10 +20,18 @@ $loc = "127.0.0.1";
 $usuario = "root";
 $base = "registro";
 
+$link = "mysql:host=$loc;dbname=$base";
+
 $enlace = new mysqli($loc, $usuario, "", $base);
 /*if ($enlace->connect_errno) {
     echo "Fallo al conectar a MySQL: (" . $enlace->connect_errno . ") " . $enlace->connect_error;
 }
 
 echo $enlace->host_info . "\n";*/
-
+/*
+try {
+    $enlace = new PDO($link, $usuario, '');
+} catch (PDOException $e) {
+    print "¡Error!";
+    die();
+}*/

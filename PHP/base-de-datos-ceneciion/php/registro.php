@@ -43,6 +43,10 @@ else
     windows.history.go(-1);
     </script>';
 }
+
+
 //Cerrar la conexion
 mysqli_close ($enlace);
+
+header('location:../index.html');
 ?>

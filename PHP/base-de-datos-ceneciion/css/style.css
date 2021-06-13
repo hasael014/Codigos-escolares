@@ -6,6 +6,7 @@
     --weight-4: 500;
     --tam: 25px;
     --af: 30px;
+    --mt-con: 60px;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
     /*Todo esto es para centrar un contenedo*/
     display: flex;
     justify-content: center;
-    margin-top: 60px;
+    margin-top: var(--mt-con);
     font-family: var(--fam);
 }
 
@@ -80,4 +81,12 @@ a {
     text-decoration: none;
     color: black;
     font-weight: var(--weight-1);
+}
+
+.ifr {
+    display: list-item;
+    width: 80%;
+    height: 500px;
+    margin-top: var(--mt-con);
+    border: none;
 }

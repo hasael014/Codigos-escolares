@@ -9,7 +9,10 @@
 </head>
 
 <body>
-    <form action="php/registro.php" method="POST" onsubmit="return validar();">
+    <!--
+onsubmit="return validar();"
+    -->
+    <form action="php/registro.php" method="POST">
         <div class="continer">
             <section class="form-register">
                 <center>
@@ -34,7 +37,13 @@
             </section>
         </div>
     </form>
-
+    <div class="continer">
+        <iframe class="ifr" src="eliminar-datos.html"></iframe>
+        <!--<iframe src="php/registros-anteriores.php" width="50%"></iframe>-->
+    </div>
+    <div class="continer">
+        <iframe class="ifr" src="php/prue.php"></iframe>
+    </div>
 </body>
 
 </html>
