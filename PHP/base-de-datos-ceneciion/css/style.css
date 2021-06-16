@@ -40,6 +40,11 @@ h3 {
     font-weight: var(--weight-4);
 }
 
+h5 {
+    margin-left: var(--af);
+    font-weight: var(--weight-4);
+}
+
 .contenedor-inputs {
     margin: 0 var(--af) var(--af) var(--af);
 }
@@ -85,8 +90,26 @@ a {
 
 .ifr {
     display: list-item;
-    width: 80%;
-    height: 500px;
+    width: 85%;
+    height: 555px;
     margin-top: var(--mt-con);
     border: none;
+}
+
+button {
+    background: rgba(7, 7, 7, 0.028);
+    border-radius: 8px;
+    width: 100%;
+    height: 55px;
+    display: table;
+    margin: 15px 0 0 0;
+    cursor: pointer;
+    border: transparent;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.545) inset;
+    font-weight: var(--weight-3);
+}
+
+button:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.82);
 }

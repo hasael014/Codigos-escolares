@@ -10,6 +10,5 @@ if ($enlace->query($sql) === TRUE) {
 } else {
   echo "Error deleting record: " . $enlace->error;
 }
-header('location:../index.html');
+header('location:../eliminar-datos.html');
 $enlace->close();
-

@@ -12,8 +12,7 @@ $result = mysqli_query($enlace, $sql);
 if (mysqli_num_rows($result) > 0) {
   // output data of each row
   while($row = mysqli_fetch_assoc($result)) {
-    echo "ID: " . $row['id'];
-    echo "- Nombre: " . $row['Nombre'];
+    echo "ID: " . $row['id']. "- Nombre: " . $row['Nombre']. " " . $row['Apellidos']. "<br>";
   }
 } else {
   echo "0 results";
