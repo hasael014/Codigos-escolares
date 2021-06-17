@@ -78,7 +78,7 @@ input:focus {
     justify-content: center;
 }
 
-input[type="submit"] {
+input[type='submit'] {
     width: 35%;
 }
 
@@ -94,6 +94,10 @@ a {
     height: 555px;
     margin-top: var(--mt-con);
     border: none;
+}
+
+.la-2 {
+    height: 700px !important;
 }
 
 button {
